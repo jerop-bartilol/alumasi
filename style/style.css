@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+/*hero section*/
+/*navbar*/
+.navbar{
+    display: flex;
+}
+.logo{
+    width: 30%;
+}
+.ul1{
+    list-style-type: none;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 25%;
+    gap: 40%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+:root {
+    --primary-green: #5ab462;   /* A fresh green color */
+    --primary-yellow: #f1db4e;    /* A bright yellowish-blue (actually more yellow) */
+    --dark-text: #333333;       /* Very dark gray, good for readable text */
+    --light-text: #ffffff;      /* Pure white text */
+    --light-gray: #f5f5f5;      /* Soft light gray, often used for backgrounds */
+}
+
+.part2{
+    background: linear-gradient(135deg, var(--primary-yellow), var(--primary-green));
+    height: 50vh;
+}
+.h1-1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 8%;
+}
+.p1{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.b1{
+    background-color: #5ab462;
+    margin-left: 40%;
+    margin-top: 5%;
+    width: 15%;
+    font-size: 18px;
+    height: 4vh;
+    border-radius: 10px;
+}
+/*services*/
+.h2-1{
+    margin-top: 5%;
+    font-size: 30px;
+    text-align: center;
+    color: #5ab462;
+}
+.card1{
+    width: 30%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    margin-top: 5%;
+    padding-bottom: 3%;
+}
+.p4{
+    background-color: #f1db4e;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #ffffff;
+}
+.p3{
+    color: #5ab462;
+    padding-top: 8%;
+}
+.part3{
+    display: flex;
+    margin-left: 5%;
+    gap: 3%;
+}
+.part4{
+    display: flex;
+    margin-left: 5%;
+    gap: 3%;
+}
+.part3  :hover{
+    transition: transform 0.3s;
+     transform: translateY(-10px);
+}
+.part4 :hover{
+    transition: transform 0.3s;
+     transform: translateY(-10px);
+}
+/*About*/
+.h1-4{
+    margin-top: 10%;
+    text-align: center;
+    color: #f1db4e;
+}
+.About{
+    display: flex;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 9%;
+    font-size: 17px;
+    color: #333333;
+   padding-right: 5%;
+   padding-left: 5%;
+    padding-top: 2%;
+    width: 60%;
+   
+}
+.about-image{
+    width: 150%;
+}
+.image-button{
+    background-color: #5ab462;
+    margin-top: 5%;
+    font-size: 17px;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.testimonials{
+    background: linear-gradient(135deg, var(--primary-yellow), var(--primary-green));
+    margin-top: 5%;
+    padding-top: 3%;
+}
+.h1-5{
+    color: #f1db4e;
+    text-align: center;
+}
